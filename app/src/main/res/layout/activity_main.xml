@@ -8,17 +8,32 @@
     tools:context=".MainActivity">
     
     <EditText
-        android:id="@+id/etInput"
+        android:id="@+id/etInputNim"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan Input"
+        android:hint="NIM"
         />
+
+    <EditText
+        android:id="@+id/etInputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAMA"
+        />
+    <EditText
+        android:id="@+id/etInputAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ALAMAT"
+        />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="BtnTampilkan"
         android:text="Tampilkan"
         />
+
 
     <TextView
         android:id="@+id/tvOutput"
